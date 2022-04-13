@@ -1,3 +1,4 @@
+//字符串求最大值
 #include <stdio.h>
 
 int main() {
@@ -21,11 +22,10 @@ int main() {
             } else continue;
             break;
         } else if(b[i] < c[i]){
-                puts(c);break;
+            puts(c);break;
         }
         else continue;
         i++;
     }
 }
-
 
